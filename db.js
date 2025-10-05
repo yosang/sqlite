@@ -19,6 +19,7 @@ const sql = `
 // In practice, db.exec is good for bulk schema setup while db.run for usual queries
 db.exec(sql, errHandler)
 
+// Designed for non-query operations such as INSERT,UPDATE,DELETE
 db.run('INSERT INTO user(name, email) VALUES(?, ?)', ['testuser', 'some@email.com'], errHandler)
 
 // Handles errors returned in sqlite callback
