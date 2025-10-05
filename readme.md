@@ -1,5 +1,5 @@
 # About
-API supporting CRUD operations with SQLite with NodeJS and Express
+API supporting CRUD operations using SQLite with NodeJS and Express
 
 # Installation
 
@@ -27,10 +27,10 @@ API supporting CRUD operations with SQLite with NodeJS and Express
 # Usage
 Endpoints available are:
 
-- GET `/` - Retrieve last 5 documents.
-- POST `/` - Create a new document.
+- GET `/` - Retrieve users.
+- POST `/` - Create a new user.
 <!-- - PUT `/:id` - Update a document by its id. -->
-- DELETE `/:id` - Deletes a document by its id
+- DELETE `/:id` - Deletes a user
 
 # License
 [MIT](https://choosealicense.com/licenses/mit/)
