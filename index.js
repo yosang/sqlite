@@ -2,8 +2,10 @@ require("dotenv").config();
 const express = require('express');
 const app = express();
 const db = require("./db");
+const morgan = require('morgan');
 
 app.use(express.json()) // Parses incoming JSON in the req object
+app.use(morgan('dev'));
 
 // Endpoints
 // GET users

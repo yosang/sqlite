@@ -5,4 +5,3 @@ curl -X POST http://localhost:3000 --header 'Content-Type: application/json' --d
 ```sh
 curl -v -X DELETE http://localhost:3000/3
 ```
-
